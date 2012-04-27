@@ -239,6 +239,50 @@ A:hover {
  }
   
 
+/**/
+
+.float_left {
+  float: left;
+  margin-right: 10px;
+}
+
+.float_right {
+  float: right;
+  margin-left: 10px;
+}
+
+.featurebox_center {
+  background-color: #fffff6;
+  margin:0px;
+  padding:10px;
+  border: 1px solid #DFE8F7;
+  font-family: verdana, arial, sans-serif;
+  font-size: 11px;
+  line-height: 18px;
+  color: #333333;
+}
+
+.featurebox_side {
+  background-color: #fffff6;
+  margin:0px;margin-left:10px;margin-right:10px;margin-bottom:15px;
+  padding:10px;
+  border: 1px solid #DFE8F7;
+  font-family: verdana, arial, sans-serif;
+  font-size: 11px;
+  line-height: 18px;
+  color: #333333;
+}
+
+
+
+
+
+
+
+
+/**************Checking The New Stuff*************************/
+
+
  
 #sidebar_useless ul {
 	margin: 0;
@@ -288,37 +332,20 @@ A:hover {
 }
 
 
+ul.niceList { margin-left:0em; padding-left:0.2em; margin-bottom:1em; }
 
-/**/
-
-.float_left {
-  float: left;
-  margin-right: 10px;
+ul.niceList li { background:url('../img/bullet.gif') 0em 0.3em no-repeat; /* change background em accordingly */ 
+                 padding-left: 0.8em; 
+                 list-style: none; 
+                 font-family: verdana, arial, sans-serif;
+                 color: #0000FF;
+                 font-size: 11px;
 }
+.niceList ul li { background-image:url('../img/bullet.gif'); }
+.niceList ul li a {background-image:url('../img/bullet.gif'); }
+.niceList ul li a:hover {background-image:url('../img/bullet_child.gif')} 
 
-.float_right {
-  float: right;
-  margin-left: 10px;
-}
+ol.niceList li, ul.niceList li { margin-bottom:0.5em; }
 
-.featurebox_center {
-  background-color: #fffff6;
-  margin:0px;
-  padding:10px;
-  border: 1px solid #DFE8F7;
-  font-family: verdana, arial, sans-serif;
-  font-size: 11px;
-  line-height: 18px;
-  color: #333333;
-}
-
-.featurebox_side {
-  background-color: #fffff6;
-  margin:0px;margin-left:10px;margin-right:10px;margin-bottom:15px;
-  padding:10px;
-  border: 1px solid #DFE8F7;
-  font-family: verdana, arial, sans-serif;
-  font-size: 11px;
-  line-height: 18px;
-  color: #333333;
-}
+ol.niceList { margin-left:1.5em; padding-left:0px; }
+.niceList ol li { list-style:decimal; background-image:none; padding-left:0em; }
