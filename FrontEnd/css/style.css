@@ -239,56 +239,6 @@ A:hover {
  }
   
 
- 
-#sidebar_useless ul {
-	margin: 0;
-	padding: 0;
-	/*list-style: none;*/
-    list-style:none outside none;
-    
-}
-
-
-
-#sidebar li {
-    margin:0px;margin-left:10px;margin-right:10px;margin-bottom:15px; 
-    list-style: none;
-}
-
-#sidebar li a {
-    font-size: 11px;
-	padding-left: 10px;
-	background: url('../img/img03.gif') no-repeat left 1px;
-    font-family: verdana, arial, sans-serif;
-    color: #0000FF;
-}
-
-#sidebar li a:link { color: #F1F6FE; }
-#sidebar li a:visited { color: #0000FF; text-decoration: none;}
-
-#sidebar li a:hover
-{
-  text-decoration: underline;
-  color: #FF0000;
-}
-
-
-#sidebar a {
-	border: none;
-	color: #898989;
-}
-
-#sidebar a:visited {
-   color: #0000FF; text-decoration: none;      
-}
-
-#sidebar a:hover {
-	text-decoration: underline;
-	color: #FF0000;
-}
-
-
-
 /**/
 
 .float_left {
@@ -322,3 +272,34 @@ A:hover {
   line-height: 18px;
   color: #333333;
 }
+
+
+
+
+
+
+
+
+/**************Checking The New Stuff*************************/
+
+
+
+
+
+ul.niceList { margin-left:0em; padding-left:10px; margin-bottom:10px; }
+
+ul.niceList li { background:url('../img/bullet.gif') 0px 4px no-repeat; /* change background em accordingly */ 
+                 padding-left: 12px; 
+                 list-style: none; 
+                 font-family: verdana, arial, sans-serif;
+                 color: #0000FF;
+                 font-size: 11px;
+}
+
+.niceList ul li { background-image:url('../img/bullet.gif'); }
+.niceList ul li a {background-image:url('../img/bullet.gif'); }
+.niceList ul li a:visited { color: #0000FF; }
+.niceList ul li a:hover {background-image:url('../img/bullet_child.gif')} 
+
+ul.niceList li { margin-bottom:8px; }
+
