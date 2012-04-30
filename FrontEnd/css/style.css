@@ -311,12 +311,12 @@ ul.niceList li { background:url('../img/bullet.gif') 0px 4px no-repeat;
 ul.niceList li { margin-bottom:8px; }
 
 
-/* Breadcrum */
+/* Breadcrum 
 
-#breadcrumbs ul, li { list-style-type:none; padding:0; margin:0;  font-family: verdana, arial, sans-serif; display:inline; }
-#breadcrumbs { border-bottom:1px solid #ccc; background-color:#fff; line-height: 20px; overflow:auto; font-size:11px; font-weight:bold; }
-#breadcrumbs li a { padding:0 24px 2px 0; background:transparent url('../img/breadcrum/blue-arrow.png') no-repeat right center;}
-#breadcrumbs li a:link, #breadcrumbs li a:visited { text-decoration:none; color: #0000FF; }
-#breadcrumbs li a:hover, #breadcrumbs li a:focus { text-decoration:underline; color:#FF0000;}
-#breadcrumbs li {color:#FF9900;}
-
+.breadcrumbs ul, li { list-style-type:none; padding:0; margin:0;  font-family: verdana, arial, sans-serif; display:inline; }
+.breadcrumbs { border-bottom:1px solid #ccc; background-color:#fff; line-height: 20px; overflow:auto; font-size:11px; font-weight:bold; }
+.breadcrumbs li a { padding:0 24px 2px 0; background:transparent url('../img/breadcrum/blue-arrow.png') no-repeat right center;}
+.breadcrumbs li a:link, #breadcrumbs li a:visited { text-decoration:none; color: #0000FF; }
+.breadcrumbs li a:hover, #breadcrumbs li a:focus { text-decoration:underline; color:#FF0000;}
+.breadcrumbs li {color:#FF9900;}
+*/
