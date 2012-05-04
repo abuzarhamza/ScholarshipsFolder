@@ -290,10 +290,13 @@ A:hover {
 
 
 
+
+
+
 /* sidebar */
 
 
-ul.niceList { margin-left:0px; padding-left:10px; margin-bottom:10px; }
+ul.niceList { margin-left:0px; padding-left:10px; margin-bottom:10px; display:block; }
 
 ul.niceList li { background:url('../img/bullet.gif') 0px 4px no-repeat; 
                  padding-left: 12px; 
@@ -313,10 +316,69 @@ ul.niceList li { margin-bottom:8px; }
 
 /* Breadcrum 
 
-.breadcrumbs ul, li { list-style-type:none; padding:0; margin:0;  font-family: verdana, arial, sans-serif; display:inline; }
-.breadcrumbs { border-bottom:1px solid #ccc; background-color:#fff; line-height: 20px; overflow:auto; font-size:11px; font-weight:bold; }
+breadcrumbs { border-bottom:1px solid #ccc; background-color:#fff; line-height: 20px; overflow:auto; font-size:11px; font-weight:bold; }
+#breadcrumbs ul, li {display:inline;   list-style-type:none; padding:0; margin:0;  font-family: verdana, arial, sans-serif;  }
 .breadcrumbs li a { padding:0 24px 2px 0; background:transparent url('../img/breadcrum/blue-arrow.png') no-repeat right center;}
 .breadcrumbs li a:link, #breadcrumbs li a:visited { text-decoration:none; color: #0000FF; }
 .breadcrumbs li a:hover, #breadcrumbs li a:focus { text-decoration:underline; color:#FF0000;}
 .breadcrumbs li {color:#FF9900;}
+
+
+
+/*Post */
+
+p#featurebox_center_postpage_header {
+  
+  margin-left:90px;
+  padding:14px;
+  padding-left:60px;
+  font-family: verdana, arial, sans-serif;
+  font-weight: bold;
+  color : #AB56E7; 
+  font-size: 14px;
+  background-image:url('../img/ok/CheckboxGreen.png');
+  background-repeat:no-repeat;
+  background-position:top left;
+  
+}
+
+p#featurebox_center_postpage_content {
+  margin-left:90px;
+  padding:0px;
+  padding-left:65px;
+  font-family: verdana, arial, sans-serif;
+  font-size: 11px;
+ }
+
+ 
+/*
+
+.input {
+    display: block;
+    border: 1px solid #006;
+    background: #ffc;
+    text-align: right;
+}
+.input:hover {
+    border: 1px solid #f00;
+    background: #ff6;
+}
+.button {
+    border: none;
+    background: url('/forms/up.png') no-repeat top left;
+    padding: 2px 8px;
+}
+.button:hover {
+    border: none;
+    background: url('/forms/down.png') no-repeat top left;
+    padding: 2px 8px;
+}
+label {
+    display: block;
+    width: 150px;
+    float: left;
+    margin: 2px 4px 6px 4px;
+    text-align: right;
+}
+br { clear: left; }
 */
